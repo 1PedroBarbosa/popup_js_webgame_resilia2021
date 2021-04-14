@@ -1,0 +1,109 @@
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-image: url(zombie-scape.jpeg);
+}
+
+h1 {
+  max-width: 480px;
+  text-align: center;
+  margin: 60px auto;
+  font-size: 70px;
+  font-family: "Creepster", "cursive";
+  color: red;
+}
+
+h1::after {
+  content: "|";
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca 0.7s infinite;
+}
+
+.textodois {
+    font-family:"Creepster", "cursive";
+    font-size: 38px;
+    text-align: center;
+    color: cornsilk;
+    margin-top: 3%;
+}
+
+.caixa {
+  display: flex;
+  margin-left: 10%;
+  width: 80%;
+  background-color: white;
+  border: solid;
+  border-radius: 5px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}
+
+.startgame {
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  font-size: 18px;
+  border: solid;
+  border-radius: 5px;
+  color: rgb(34, 32, 32);
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #fff8ec;
+  cursor: pointer;
+}
+.anab {
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 90%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  font-size: 18px;
+  border: solid;
+  border-radius: 5px;
+  color: rgb(34, 32, 32);
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #fff8ec;
+  cursor: pointer;
+}
+
+.luizf {
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 90%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  font-size: 18px;
+  border: solid;
+  border-radius: 5px;
+  color: rgb(34, 32, 32);
+  text-transform: uppercase;
+  font-weight: 600;
+  background: #fff8ec;
+  cursor: pointer;
+}
+
+@keyframes pisca {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
